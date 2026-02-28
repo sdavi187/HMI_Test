@@ -1,11 +1,7 @@
 
-def check_string (string_to_check, big_size = 99, min_size = 5):
+def check_string (string_to_check):
 
-    #big_size = 99
-
-    print (string_to_check)
-    print (big_size)
-    print (min_size)
+    big_size = 99
 
     if string_to_check.isalpha():
         return ("The string is all letters")
